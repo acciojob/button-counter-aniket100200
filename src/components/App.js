@@ -4,7 +4,7 @@ import './../styles/App.css';
 import { useState } from "react";
 
 const App = () => {
-  let [count,setCount]=useState(1);
+  let [count,setCount]=useState(0);
 
   const changeCount=()=>{
     setCount(count+1);
